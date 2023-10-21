@@ -21,7 +21,6 @@ export default function Index({ allPosts }: Props) {
         <Head>
           <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
         </Head>
-        <p>welcome to next</p>
         <Container>
           <Intro />
           {heroPost && (
