@@ -34,8 +34,4 @@ jobs:
         server: ${{ secrets.SERVER }}
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-        exclude:
-          - **/.git*
-          - **/.git*/**
-          - **/node_modules/**
-          - fileToExclude.txt
+        port: 22
