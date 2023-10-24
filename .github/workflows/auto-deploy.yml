@@ -39,5 +39,4 @@ jobs:
           **/.git*/**
           **/node_modules/**
           **/lib/**
-         
-              
+        server-dir: "httpdocs/"

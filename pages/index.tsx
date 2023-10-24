@@ -16,8 +16,7 @@ export default function Index({ allPosts }: Props) {
   const heroPost = allPosts[0]
   const morePosts = allPosts.slice(1)
   return (
-    <>
-      <Layout>
+    <Layout>
         <Head>
           <title>{`Next.js Blog Example with ${CMS_NAME}`}</title>
         </Head>
@@ -37,7 +36,6 @@ export default function Index({ allPosts }: Props) {
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>
-    </>
   )
 }
 
